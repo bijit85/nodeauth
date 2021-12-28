@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Calibri";
 }
 
 a {
@@ -18,4 +18,30 @@ footer {
 
 label {
   padding-top: 10px;
+}
+
+ul.success li, ul.info li, ul.error li {
+  margin: 20px 0 20px 0;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.success li {
+  color: #0f5132;
+  background: none;
+  border-color: #0f5132;
+}
+
+ul.info li {
+  color: darkblue;
+  background: none;
+  border-color: darkblue;
+}
+
+ul.error li {
+  color: red;
+  background: none;
+  border-color: red;
 }
